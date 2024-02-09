@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.training-section{
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.container{
+  width: 1170px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.items{
+  flex-basis: 23%;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 10px 3px lightgray;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-justify: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.items img{
+  margin: auto;
+}
+
+.items h1{
+  padding: 10px 0px;
+}
+
+.items p{
+  padding: 10px 0px;
+}
+
+.training-section button{
+  background-color: blue;
+  border-radius: 3px;
+}
+
+.items:hover{
+  background: orange;
+}
+
+@media only screen and (min-width:200px) and (max-width: 800px) {
+  .container{
+    width: 100%;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .items {
+    margin: 0px 10  px;
   }
+  
 }
