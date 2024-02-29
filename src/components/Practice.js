@@ -2,7 +2,7 @@ import React from 'react'
 
 const Practice = () => {
 
-    // const imageURL = "../Assests/Images/sofa.jpg";
+    const imageURL = "../Assests/Images/pic2.png";
 
     return (
         // <div className='box-border h-32 w-32 p-4 border-4' ></div>
@@ -971,11 +971,27 @@ const Practice = () => {
                     <div className='absolute h-48 w-48 top-0 bg-red-200'></div>
                     <p className='absolute top-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium officiis cum quidem architecto blanditiis vel earum consequuntur inventore sit ullam possimus sed, deserunt omnis voluptates rem autem numquam minima sequi.</p>
                 </div>
+                style={{ backgroundImage: `url(${imageURL})` }}>
+            </div> */}
+
+            {/* <div className='h-screen bg-cover overflow-hidden mix-blend-multiply' style={{backgroundImage: `url(${imageURL})`}}>
+                <div class="flex justify-center -space-x-14">
+                    <div class="mix-blend-hard-light bg-orange-400 rounded-full h-32 w-32"></div>
+                    <div class="mix-blend-difference bg-green-500 rounded-full h-32 w-32"></div>
+                </div>
+                <div className='flex items-center justify-center mx-auto animate-ping'>HELL O CHEtan </div>
+            </div> */}
+            {/* <div className='mx-auto'>
+                <div className='h-32 w-32 mix-blend-multiply bg-gradient-to-br from-slate-500 to-red-900 relative rounded-full'></div>
+                <div className='h-96 w-96 bg-no-repeat bg-cover absolute top-0' style={{ backgroundImage: `url(${imageURL})` }}></div>
+            </div> */}
+
+            {/* <div className='text-6xl m-10'>
+                <div className='h-96 w-96 bg-no-repeat bg-cover relative mix-blend-multiply' style={{ backgroundImage: `url(${imageURL})` }}></div>
+                <span className='bg-clip-text text-transparent absolute top-10 left-14 bg-transparent bg-gradient-to-r from-red-500 to-green-500'>Hello world</span>
             </div> */}
             
-            
-        </>
-
+         </>
 
     )
 

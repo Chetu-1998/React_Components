@@ -1,4 +1,7 @@
 import './App.css';
+import NarrowCardComponent from './components/NarrowCardComponent';
+// import BackgroundImageCardComponents from './components/BackgroundImageCardComponents';
+// import SplitImageCardComponent from './components/SplitImageCardComponent';
 // import StackedCardComponent from './components/StackedCardComponent';
 // import LoginCardComponent from './components/LoginCardComponent';
 // import CardComponets from './components/CardComponets';
@@ -32,8 +35,7 @@ import './App.css';
 // import RightStackCardComponent from './components/RightStackCardComponent';
 // import ContactFormCardComponent from './components/ContactFormCardComponent';
 import Practice from './components/Practice';
-import SideBarBComponent from './components/SideBarBComponent';
-import SideBarCardComponent from './components/SideBarCardComponent';
+// import SideBarCardComponent from './components/SideBarCardComponent';
 
 function App() {
   return (
@@ -70,9 +72,10 @@ function App() {
       {/* <CardComponets/> */}
       {/* <LoginCardComponent /> */}
       {/* <StackedCardComponent/> */}
-      <SideBarCardComponent/>
-      {/* <SideBarBComponent/> */}
-
+      {/* <SideBarCardComponent/> */}
+      {/* <SplitImageCardComponent/> */}
+      {/* <BackgroundImageCardComponents/> */}
+      <NarrowCardComponent/>
     </>
   );
 }
